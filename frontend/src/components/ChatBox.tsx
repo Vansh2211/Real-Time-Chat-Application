@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import io from "socket.io-client";
-import { IUser } from "/Users/juntrax/Desktop/Chatapp/backend/src/models/User.ts";
-
+import { IUser } from "/workspaces/Real-Time-Chat-Application/backend/src/models/User.ts"
 import { Socket } from "socket.io-client";
 import manualAxios from "../config/axiosConfig";
 
