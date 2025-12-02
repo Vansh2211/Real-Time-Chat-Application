@@ -30,7 +30,7 @@
   "devDependencies": {
     "@eslint/js": "^9.17.0",
     "@types/node": "^22.10.7",
-    "@types/react": "^18.3.18",
+    "@types/react": "^18.3.27",
     "@types/react-dom": "^18.3.5",
     "@types/simple-peer": "^9.11.8",
     "@types/socket.io-client": "^1.4.36",

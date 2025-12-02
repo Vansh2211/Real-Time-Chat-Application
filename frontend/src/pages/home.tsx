@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import manualAxios from "/Users/juntrax/Desktop/Chatapp/frontend/src/config/axiosConfig.ts";
+import manualAxios from "../config/axiosConfig";
+// import manualAxios from "/Users/juntrax/Desktop/Chatapp/frontend/src/config/axiosConfig.ts";
 import "/Users/juntrax/Desktop/Chatapp/frontend/src/home.css";
-import User from "/Users/juntrax/Desktop/Chatapp/backend/src/models/User.ts";
-import io from "socket.io-client";
+import User from "/workspaces/Real-Time-Chat-Application/backend/src/models/User.ts";
+import io from "socket.io-client"
 import ChatBox from "../components/ChatBox";
-import { IUser } from "/Users/juntrax/Desktop/Chatapp/backend/src/models/User.ts";
+import { IUser } from "/workspaces/Real-Time-Chat-Application/backend/src/models/User.ts"
 
 type Message = {
   id: number;
